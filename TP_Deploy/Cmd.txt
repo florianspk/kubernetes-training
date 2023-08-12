@@ -1,0 +1,7 @@
+kubectl create -f <exemple.yml> #Permet de créer un Pod
+kubectl get po #Permet de lister les pods
+kubectl describe po <exemple-pod> #Permet d'avoir des informations sur le pod en question
+kubectl get pods -o wide #Permet d'avoir plus d'information sur un pod en question
+kubectl port-forward svc/my-service 5000                  # listen on local port 5000 and forward to port 5000 on Service backend
+kubectl port-forward svc/my-service 5000:my-service-port  # listen on local port 5000 and forward to Service target port with name <my-service-port>
+

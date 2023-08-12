@@ -1,0 +1,4 @@
+kubectl -n <namespace> .... # Intéragire avec les différents namespace
+kubectl -n <namespace> get svc <service_nom> # Permet d'accéder a l'état d'un service 
+kubectl get svc
+minikube service service-nodeport-web accéder à un service
