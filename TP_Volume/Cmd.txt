@@ -1,0 +1,2 @@
+## Minikube ##
+minikube mount data_volume:/data-volume 
